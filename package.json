@@ -1,0 +1,48 @@
+{
+  "name": "rstest-canvas-mock",
+  "version": "0.0.1",
+  "description": "Mock canvas in Rstest",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "test": "rstest run",
+    "check": "biome check --write",
+    "dev": "rslib build --watch",
+    "format": "biome format --write"
+  },
+  "peerDependencies": {
+    "@rstest/core": "*"
+  },
+  "dependencies": {
+    "jest-canvas-mock": "~2.5.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0",
+    "@rslib/core": "^0.10.5",
+    "@types/node": "^22.16.0",
+    "typescript": "^5.8.3",
+    "@rstest/core": "^0.0.7",
+    "jsdom": "^26.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rspack-contrib/rstest-canvas-mock/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rspack-contrib/rstest-canvas-mock"
+  }
+}

@@ -38,6 +38,7 @@
     "@rstest/core": "^0.0.7",
     "jsdom": "^26.1.0"
   },
+  "packageManager": "pnpm@10.15.0",
   "bugs": {
     "url": "https://github.com/rspack-contrib/rstest-canvas-mock/issues"
   },

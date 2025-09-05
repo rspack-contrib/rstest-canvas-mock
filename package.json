@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "build": "rslib build",
+    "prepare": "npm run build",
     "test": "rstest run",
     "check": "biome check --write",
     "dev": "rslib build --watch",

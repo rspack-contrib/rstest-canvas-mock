@@ -1,6 +1,6 @@
 {
   "name": "rstest-canvas-mock",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mock canvas in Rstest",
   "type": "module",
   "license": "MIT",
@@ -22,7 +22,8 @@
     "test": "rstest run",
     "check": "biome check --write",
     "dev": "rslib build --watch",
-    "format": "biome format --write"
+    "format": "biome format --write",
+    "bump": "npx bumpp"
   },
   "peerDependencies": {
     "@rstest/core": "*"
